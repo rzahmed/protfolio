@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="social-icons">
             
               <a
-                href={"rzahmed.github.io"}
+                href={"https://rzahmed.github.io"}
                 target="_blank"
                 rel="noopener noreferrer"
               >
