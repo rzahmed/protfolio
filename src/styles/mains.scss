@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import "./include-media.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Prompt:wght@200&display=swap');
+
+
+// Components
+@import "./card.scss";
+@import "./navbar.scss";
+@import "./header.scss";
+@import "./work.scss";
+@import "./about.scss";
+@import "./skills.scss";
+@import "./footer.scss";
+
+
+* {
+  font-family: "Montserrat";
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: #692705;
+  background-color: #ffeee4;
+}
+
+.section {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
