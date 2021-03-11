@@ -1,7 +1,8 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import githubIcon from "../images/github.svg"
-import profilepic from "../images/profilepic2.png"
+import {HiDownload} from 'react-icons/hi'
+import resume from "../images/resume.pdf"
+import profilepic from "../images/pic2.jpg"
 
 
 const About = () => {
@@ -10,7 +11,13 @@ const About = () => {
       <div className="container">
         <div className="about-section">
           <div className="image-wrapper">
-            <img src={profilepic} alt="about"></img>
+            
+          <div className="hexagon">
+            <div className="hexTop"></div>
+            <div className="hexBottom"></div>
+          </div>
+
+
             {/*
             <div>
               <a
@@ -42,8 +49,16 @@ const About = () => {
               I'm currently searching for a software development position so 
               if my portfolio piques your interest and you're hiring, give me a shout.
             </p>
-          </div>
+            
+            In a hurry? Here is my resume :
+            <a className="btn btn-2"
+              href={resume} download="resume"
+            >
+               Resume <HiDownload></HiDownload>
+            </a>
           
+          </div>
+ 
         </div>
       </div>
     </div>

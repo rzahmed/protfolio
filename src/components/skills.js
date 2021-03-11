@@ -6,6 +6,8 @@ import jsIcon from "../images/javascript.svg"
 import javaIcon from "../images/java.svg"
 import cIcon from "../images/C.svg"
 
+
+
 const Skills = () => {
 
   const skills = [
@@ -47,9 +49,14 @@ const Skills = () => {
     },
   ]
 
+
   return (
     <div className="section" id="skills">
       <div className="container" style={{height:"fit-content"}}>
+
+    
+
+      
         <div className="skills-container">
           <h1>Skills</h1>
           <div className="skills-grid">
@@ -61,6 +68,7 @@ const Skills = () => {
             ))}
           </div>
         </div>
+       
       </div>
     </div>
   )
